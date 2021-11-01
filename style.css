@@ -1,0 +1,68 @@
+#app{
+    display: grid;
+    grid-template-rows: 200px 50px;
+    gap:20px;
+}
+.container {
+    
+    display: grid;
+    align-items: center;
+    padding-left: 50px;
+
+;
+}
+
+.jarimg{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.frimg{
+position: absolute;
+width: 60px;
+height: 70px;
+
+}
+.jr{
+    max-height: 100%;
+}
+.wraper{
+    display: grid;
+}
+.weigth {
+    justify-self: center;
+}
+
+.cookjam{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.potimg{
+    width: 150px;
+    display: grid;
+    
+    
+}
+.potwraper{
+    display: flex;
+}
+.pimg{
+    max-width: 100%;
+}
+.potfr{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    justify-self: center ;
+    margin-top:40px
+    
+}
+.jamamount{
+    justify-self: center;
+}
+.jarwrapper{
+    display: flex;
+    padding-left: 50px;
+    margin-bottom: 40px;
+}
